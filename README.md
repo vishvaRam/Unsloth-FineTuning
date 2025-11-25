@@ -177,6 +177,23 @@ Comprehensive evaluation using **Gemini 2.0 Flash** as judge:
 
 See [eval.ipynb](./eval.ipynb) for full evaluation pipeline.
 
+## 📝 Technical Deep Dive
+
+Want to understand the theory, methodology, and lessons behind this 8x improvement?
+
+**[📖 Read the full article on DEV.to](https://dev.to/vishva_ram/fine-tuning-qwen-25-3b-for-rbi-regulations-achieving-8x-performance-with-smart-data-augmentation-5e38)** (10,000+ words)
+
+**Topics covered:**
+- 🧠 LoRA mathematics and configuration
+- ⚡ Unsloth framework internals  
+- 📊 Data augmentation via rephrasing
+- 🎓 Training hyperparameter analysis
+- 📈 Evaluation methodology
+- 🔬 Ablation studies and key lessons
+
+Ideal for ML engineers building domain-specific LLMs or anyone wanting to replicate this approach.
+
+
 ## 🎓 Lessons Learned
 
 ### What Worked
