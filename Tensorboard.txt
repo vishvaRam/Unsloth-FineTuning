@@ -1,0 +1,7 @@
+# On RunPod (you're already connected)
+cd /workspace  # or wherever your notebook is running
+
+# Find the tensorboard logs
+ls -la ./qwen2.5-3b-rbi-qa/runs/
+
+tensorboard --logdir=./qwen2.5-3b-rbi-qa/runs --host=0.0.0.0 --port=6006
